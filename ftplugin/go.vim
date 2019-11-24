@@ -18,12 +18,12 @@ compiler go
 augroup vim-go-buffer
   autocmd! * <buffer>
 
-endif
-
+augroup end
 
 
 " restore vi compatibility settings
 let &cpo = s:cpo_save
 unlet s:cpo_save
+
 " vim: sw=2 ts=2 et
 
